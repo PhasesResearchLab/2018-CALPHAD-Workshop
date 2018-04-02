@@ -23,6 +23,17 @@
 
 ## break (15 mins)
 
-## ESPEI introduction ()
+## ESPEI introduction (15 mins)
 
-## ESPEI tutorial ()
+- Motivation
+- 2 step approach with background/theory
+- UQ perspective
+
+
+## ESPEI tutorial (60 mins)
+
+- Demo dataset format, uploading to ESPEI datasets, view with `dataplot`
+- ESPEI documentation overview, where to find settings and info
+- Write an input file
+- Run ESPEI (TODO: how will they have time to run a meaningful simulation?)
+- Analyze results by viewing phase diagrams, looking at UQ
