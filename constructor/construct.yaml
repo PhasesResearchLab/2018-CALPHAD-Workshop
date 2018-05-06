@@ -1,0 +1,45 @@
+name: pycalphad-installer
+version: 0.7
+
+channels:
+    - https://conda.anaconda.org/conda-forge
+    - https://conda.anaconda.org/anaconda
+    - https://conda.anaconda.org/pycalphad
+    - http://repo.anaconda.com/pkgs/msys2 [win]
+specs:
+  - python 3.6*
+  - conda
+  - notebook
+  - jupyter
+  - setuptools
+  - matplotlib
+  - numexpr
+  - pandas
+  - nose
+  - mock
+  - xarray !=0.8
+  - sympy
+  - pyparsing
+  - tinydb
+  - scipy
+  - dask >=0.15
+  - distributed
+  - numpy >=1.9
+  - dill
+  - cython >=0.24
+  - ipopt
+  - pycalphad >=0.7
+
+exclude:
+  - gmpy2
+
+install_in_dependency_order: yes
+conda_default_channels:
+    - https://conda.anaconda.org/conda-forge
+    - https://conda.anaconda.org/anaconda
+    - https://conda.anaconda.org/pycalphad
+    - http://repo.anaconda.com/pkgs/msys2 [win]
+
+license_file: EULA.txt
+
+register_python_default: yes [win]
