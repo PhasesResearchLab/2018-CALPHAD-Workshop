@@ -1,5 +1,5 @@
-name: pycalphad-installer
-version: 0.7
+name: workshop-installer
+version: 1.0
 
 channels:
     - https://conda.anaconda.org/conda-forge
@@ -29,6 +29,7 @@ specs:
   - cython >=0.24
   - ipopt
   - pycalphad >=0.7
+  - espei
 
 exclude:
   - gmpy2
