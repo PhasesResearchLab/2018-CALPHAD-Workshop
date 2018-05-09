@@ -1,6 +1,6 @@
 # 2018-CALPHAD-Workshop Outline (3 hrs, 180 mins total)
 
-## Introduction (10 [10] mins)
+## Introduction (10 [10] mins) - Richard
 
 - Who we are
 - Motivation for developing tools
@@ -9,13 +9,13 @@
   * Open to the community to see methods, offer suggestions, make changes
   * Our vision
 
-## Installation (30 [40] mins)
+## Installation (30 [40] mins) - Richard
 
 - Install from web/constructor (USB)
 - Brandon to continue to help if time runs out and 
 
 
-## Python intro (20 [60] mins)
+## Python intro (20 [60] mins) - Richard
 
 - Interpreter
 - Syntax
@@ -25,14 +25,14 @@
 - Foundational packages: NumPy, SciPy, Matplotlib
 
 
-## pycalphad introduction (10 [70] mins)
+## pycalphad introduction (10 [70] mins) - Richard
 
 - Motivations behind design
 - Quick tour of high level infrastructure from a user perspective (create a `Database`, use it in `calculate` and `equilibrium`)
 - Custom `Model` objects: write symbolically, compile, reuse
 
 
-## pycalphad tutorial (45 [115] mins)
+## pycalphad tutorial (45 [115] mins) - Richard
 
 - Create a `Database`
 - Custom Model
@@ -41,7 +41,7 @@
 
 ## break (15 [130] mins)
 
-## ESPEI introduction (15 [145] mins)
+## ESPEI introduction (15 [145] mins) - Brandon
 
 - Motivation
 - 2 step approach with background/theory
@@ -50,7 +50,7 @@
 - UQ perspective
 
 
-## ESPEI demo and tutorial (30 [175] mins)
+## ESPEI demo and tutorial (30 [175] mins) - Brandon
 
 - Demo
   * ESPEI documentation overview, where to find settings and info
