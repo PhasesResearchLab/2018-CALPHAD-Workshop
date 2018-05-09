@@ -50,12 +50,17 @@
 - UQ perspective
 
 
-## ESPEI tutorial (30 [175] mins)
+## ESPEI demo and tutorial (30 [175] mins)
 
-- Demo dataset format, uploading to ESPEI datasets, view with `dataplot`
-- ESPEI documentation overview, where to find settings and info
-- Write an input file
-- Run ESPEI (TODO: how will they have time to run a meaningful simulation? Give them results from a run to analyze?)
-- Analyze results by viewing phase diagrams, looking at UQ
+- Demo
+  * ESPEI documentation overview, where to find settings and info
+  * Demo dataset format, uploading to ESPEI datasets
+- Tutorial
+  * Download (or open from USB) some datasets for single phase dataset (Al-Ni)
+  * Create an input file and run parameter selection
+  * Compare selected parameters to data
+  * View ESPEI datasets with dataplot
+  * Run ESPEI (TODO: how will they have time to run a meaningful simulation? Give them results from a run to analyze?)
+  * Analyze results by viewing phase diagrams, looking at UQ
 
 ## Slack time for questions (5 [180] mins)
