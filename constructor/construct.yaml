@@ -31,9 +31,7 @@ specs:
   - pycalphad >=0.7
   - espei
 
-exclude:
-  - gmpy2
-
+ignore_duplicate_files: True
 install_in_dependency_order: yes
 conda_default_channels:
     - https://conda.anaconda.org/conda-forge
