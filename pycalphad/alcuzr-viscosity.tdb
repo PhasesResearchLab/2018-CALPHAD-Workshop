@@ -73,34 +73,16 @@ $ ETA parameters are for testing viscosity model from Gasior
   -13.6488*T*LN(T);   6.00000E+03   N REF:0 !
 
    $ Viscosity test parameters
-   $  Trubula et al 2016
-   $ original E0: 12511
-   PARAMETER ETA(LIQUID,AL;0) 2.98150E+02  +0.000276*EXP(159364/(8.3145*T));   6.00000E+03   
-  N REF:0 !
    $ Kobatake et al, J Mater Sci (2014) 49:3541–3549
-   $ original E0: 21500
-   PARAMETER ETA(LIQUID,CU;0) 2.98150E+02  +0.000657*EXP(231079/(8.3145*T));   6.00000E+03   
+   PARAMETER ETA(LIQUID,AL;0) 2.98150E+02  +0.000281*EXP(12300/(8.3145*T));   6.00000E+03   
+  N REF:0 !
+   PARAMETER ETA(LIQUID,CU;0) 2.98150E+02  +0.000657*EXP(21500/(8.3145*T));   6.00000E+03   
   N REF:0 !
   $ Rhim et al., "Noncontact technique for measuring surface tension and viscosity
   $    of molten materials using high temperature electrostatic levitation"
   $    Rev. Sci. Instrum., Vol. 70, No. 6, June 1999
   $ Only strictly valid 1850 - 2200 K, but we extrapolate for testing purposes
-  $ PARAMETER ETA(LIQUID,ZR;0) 2.98150E+02  4.86e-3-5.3e-6*(T-2128);   6.00000E+03   
-  $ N REF
-  $ original E0: 44800
-  PARAMETER ETA(LIQUID,ZR;0) 2.98150E+02  +0.000370*EXP(131175/(8.3145*T));   6.00000E+03   
-    N REF:0 !
-
-  $ This implementation is not a rigorous treatment of Tg at all
-  $ Tg has cooling rate dependence, which is ignored here
-  $ MD study: A.I. Fedorchenko / Journal of Crystal Growth 475 (2017) 362–367
-  PARAMETER TG(LIQUID,AL;0)  2.98150E+02  +535;   6.00000E+03   
-    N REF:0 !
-  $ MD study said 670: A.I. Fedorchenko / Journal of Crystal Growth 475 (2017) 362–367
-  $ Taichi Abe, Masato Shimono, Machiko Ode, Hidehiro Onodera, Thermodynamic modeling of the undercooled liquid in the Cu–Zr system, Acta Materialia, Volume 54, Issue 4, 2006, Pages 909-915, ISSN 1359-6454, http://dx.doi.org/10.1016/j.actamat.2005.10.019.
-  PARAMETER TG(LIQUID,CU;0)  2.98150E+02  +795;   6.00000E+03   
-    N REF:0 !
-  PARAMETER TG(LIQUID,ZR;0)  2.98150E+02  +444;   6.00000E+03   
+  PARAMETER ETA(LIQUID,ZR;0) 2.98150E+02  +4.74E-3 - 4.97E-6*(T-2128) ;   6.00000E+03   
     N REF:0 !
 
  LIST_OF_REFERENCES
