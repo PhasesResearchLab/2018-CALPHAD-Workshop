@@ -27,10 +27,13 @@ specs:
   - numpy >=1.9
   - dill
   - cython >=0.24
-  - ipopt
+  - ipopt >=3.12.8
   - pycalphad >=0.7
   - espei
+  - m2w64-toolchain [win]
+  - libpython [win]
 
+post_install: post.bat  [win]
 ignore_duplicate_files: True
 install_in_dependency_order: yes
 conda_default_channels:
