@@ -45,3 +45,4 @@ conda_default_channels:
 license_file: EULA.txt
 
 register_python_default: yes [win]
+add_to_path_default: yes
