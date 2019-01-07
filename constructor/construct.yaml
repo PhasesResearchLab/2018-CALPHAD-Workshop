@@ -1,5 +1,5 @@
-name: workshop-installer
-version: 1.0
+name: ESPEI
+version: 0.6.1
 
 channels:
     - https://conda.anaconda.org/conda-forge
@@ -29,20 +29,25 @@ specs:
   - cython >=0.24
   - ipopt >=3.12.8
   - pycalphad >=0.7
-  - espei
   - m2w64-toolchain [win]
   - libpython [win]
+  - espei >=0.6.1
 
 post_install: post.bat  [win]
 ignore_duplicate_files: True
 install_in_dependency_order: yes
 conda_default_channels:
+    - https://conda.anaconda.org/pycalphad
     - https://conda.anaconda.org/conda-forge
     - https://conda.anaconda.org/anaconda
-    - https://conda.anaconda.org/pycalphad
     - http://repo.anaconda.com/pkgs/msys2 [win]
 
 license_file: EULA.txt
 
 register_python_default: yes [win]
 add_to_path_default: yes
+
+# Linux and Windows are the defaults, but macOS uses pkg instead of sh
+installer_type: sh [linux]
+installer_type: pkg [osx]
+installer_type: exe [win]
